@@ -3,7 +3,6 @@
 ## Questão 1
 **Pergunta:** Em 3 frases, explique o que é Big Data e por que ele é importante para Ciência de Dados e Machine Learning.
 
-**Resposta:** 
 **O que é Big Data:**
 O termo Big Data refere-se quando há um conjunto massivo de diversos tipos de dados que sistemas tradicionais de análise de dados não conseguem suportar, analisar e gerenciar. 
 
