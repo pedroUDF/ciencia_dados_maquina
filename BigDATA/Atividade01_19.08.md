@@ -27,8 +27,6 @@
 
 * [X] Entretenimento
 
-### Problema escolhido
-
 **Descreva, em poucas linhas, o problema que sua equipe pretende analisar.**
 
 > Analisaremos a fragmentação dos direitos de transmissão do futebol brasileiro após a Lei do Mandante. A divisão dos jogos em múltiplas plataformas de streaming aumentou os custos para o torcedor, gerou confusão sobre onde assistir às partidas e impulsionou a pirataria, enfraquecendo a sustentabilidade da própria indústria do entretenimento."
@@ -43,7 +41,7 @@
 
 ### Quem é afetado pelo problema?
 
-> O Os afetados por esse problema incluem os torcedores, expostos a altos custos e à fadiga de assinaturas.
+> O Os afetados por esse problema incluem os torcedores, expostos a altos custos e à fadiga de assinaturas. Torcedores mais leigos podem sofrer com a barreira tecnológica e a confusão sobre a grade de programação, sem saber em qual plataforma ou canal o jogo será exibido em cada rodada.
 
 ---
 
@@ -51,7 +49,7 @@
 
 **Qual é o impacto do problema?**
 
-> A evasão no ensino superior brasileiro é alta, principalmente em cursos noturnos, em que os alunos conciliam trabalho e estudo. Para o aluno, significa frustração e desperdício de investimento pessoal. Para a instituição, significa perda financeira, salas ociosas e queda em indicadores oficiais. Como a evasão costuma ser detectada tarde demais, agir com base em dados permite intervir enquanto ainda há chance de reter o aluno.
+> Aumento expressivo no custo total mensal do torcedor, levando a muitos a migrarem para serviços ilegais (IPTV clandestino e sites piratas), gerando perda bilionária de receita anual em assinaturas e direitos de imagem.
 
 ---
 
@@ -59,7 +57,7 @@
 
 **Qual decisão a organização precisa tomar?**
 
-> A instituição precisa decidir **em quais alunos e em quais ações de retenção investir**: oferecer apoio financeiro (bolsas, renegociação), apoio pedagógico (monitoria, reforço), flexibilização de horários/EAD ou acompanhamento psicossocial — e em que momento do semestre agir para cada perfil de aluno em risco.
+> adequar a política de preços e usabilidade dos pacotes oficiais para reduzir o incentivo financeiro do torcedor em migrar para a pirataria.
 
 ---
 
@@ -67,12 +65,12 @@
 
 | Nº | Dado necessário | Por que esse dado é importante? |
 | -: | --------------- | ------------------------------- |
-| 1 | Frequência às aulas (presenças/faltas por disciplina) | Queda de frequência é um dos primeiros sinais de desengajamento e possível evasão. |
-| 2 | Notas e histórico de reprovações | Baixo desempenho acadêmico está fortemente associado à desistência. |
-| 3 | Situação financeira (mensalidades em atraso, bolsas, financiamento) | Dificuldade financeira é uma das principais causas de abandono em instituições privadas. |
-| 4 | Dados socioeconômicos (idade, se trabalha, distância casa–faculdade, renda) | Ajudam a entender o contexto do aluno e a carga que ele enfrenta para permanecer no curso. |
-| 5 | Interações no ambiente virtual (acessos ao AVA, entregas de atividades) | Mostram o engajamento fora da sala de aula, mesmo quando o aluno ainda frequenta as aulas. |
-| 6 | Registros de trancamentos, transferências e evasões anteriores | Servem de base histórica para identificar padrões de quem desistiu no passado. |
+| 1 | Custo total acumulado das assinaturas | Quantifica a barreira financeira do torcedor e o gatilho financeiro para a pirataria. |
+| 2 | Mapeamento de distribuição dos jogos por plataforma | Mede a fricção do usuário e identifica o nível de pulverização das partidas. |
+| 3 | Taxa de penetração e uso de IPTV/Pirataria | Avalia o tamanho do mercado clandestino e a perda direta de receita das emissoras. |
+| 4 | Métrica de cancelamento de assinaturas (Churn Rate) | Mostra a rotatividade do torcedor que assina o streaming apenas nos meses de jogos do seu time. |
+| 5 | Audiência média e engajamento por partida/plataforma | Revela o impacto da fragmentação na visibilidade do campeonato e no alcance dos patrocinadores. |
+| 6 | Receita líquida dos clubes com direitos de transmissão | Permite comparar a eficiência do modelo atual com a projeção de receita em um modelo de Liga Única. |
 
 ---
 
@@ -80,19 +78,19 @@
 
 ### Pergunta 1
 
-> Quais fatores mais se repetem entre os alunos que evadiram nos últimos anos?
+> Qual é o custo mensal total necessário para um torcedor acompanhar 100% dos jogos oficiais do seu clube na temporada?
 
 ### Pergunta 2
 
-> Em qual semestre/período do curso a evasão é mais frequente?
+> Qual é o percentual de torcedores que migrou para transmissões piratas (IPTV/sites) devido à fragmentação das plataformas?
 
 ### Pergunta 3
 
-> Existe relação entre queda de frequência/acesso ao AVA e a desistência semanas depois?
+> Como a pulverização dos jogos entre diferentes streamings afetou as taxas de audiência e engajamento em relação ao modelo anterior?
 
 ### Pergunta 4
 
-> Quais perfis de alunos (trabalhador, bolsista, distante da faculdade etc.) têm maior risco de evadir?
+> Qual foi o impacto financeiro real na receita líquida dos clubes após a mudança na negociação trazida pela Lei do Mandante?
 
 ---
 
@@ -105,11 +103,11 @@
 * [x] Valores fora do padrão
 * [x] Relações entre variáveis
 * [x] Mudanças ao longo do tempo
-* [ ] Outros: __________________________
 
 ### Explique um padrão que vocês gostariam de encontrar
 
-> Gostaríamos de encontrar um padrão de "sinais de alerta": por exemplo, alunos que reduzem a frequência abaixo de 75%, deixam de acessar o AVA por mais de duas semanas e atrasam uma mensalidade tendem a evadir no semestre seguinte. Identificando essa combinação de comportamentos, a instituição poderia agir antes da desistência.
+> O padrão ideal a ser buscado nos dados é uma correlação direta entre a fragmentação da oferta e a perda de eficiência do ecossistema oficial.
+Buscando identificar o ponto de inflexão do consumidor: a partir de qual valor acumulado de assinaturas e de qual nível de complexidade (número de aplicativos necessários) o torcedor deixa de ser um assinante oficial e se converte em usuário de serviços piratas ou abandona o acompanhamento ao vivo.
 
 ---
 
@@ -120,26 +118,27 @@
 * [x] Análise temporal
 * [x] Visualização por gráficos
 * [x] Identificação de padrões
-* [x] Classificação
-* [x] Previsão
-* [x] Agrupamento
-* [ ] Outra: __________________________
+* [ ] Classificação
+* [ ] Previsão
+* [ ] Agrupamento
 
 ### Explique
 
-> Primeiro, uma análise descritiva e temporal para entender o cenário (quantos evadem, quando e de quais cursos), com gráficos comparando grupos (trabalhadores × não trabalhadores, bolsistas × pagantes). Depois, um agrupamento para identificar perfis de alunos e, futuramente, um modelo de classificação/previsão que estime o risco de evasão de cada aluno a partir do histórico.
+> Podemos utilizar a análise descritiva e a visualização por gráficos para resumir o cenário atual, mapeando a distribuição de jogos por plataforma, o custo total das assinaturas e a audiência média das partidas. A comparação entre grupos permite contrastar o impacto financeiro entre clubes de grande e pequeno porte, além de diferenciar o comportamento de torcedores pagantes versus usuários de pirataria. Complementarmente, a análise temporal é ideal para avaliar a variação na taxa de cancelamento (churn) e no alcance das transmissões ao longo dos meses da temporada.
+
+A identificação de padrões conecta todas essas frentes ao correlacionar o aumento de custos com a migração para transmissões ilegais ou abandono dos jogos ao vivo. Por outro lado, técnicas mais complexas de aprendizado de máquina como classificação, previsão e agrupamento (clustering) são dispensáveis nesta etapa, pois o foco primário da atividade é diagnosticar a eficiência e as falhas do ecossistema atual com dados históricos e comportamentais, sem a necessidade de construir modelos preditivos ou segmentações avançadas.
 
 ---
 
 # 11. Qual decisão poderia ser tomada?
 
-> Com base nos resultados, a instituição poderia criar um **programa de retenção direcionado**: gerar mensalmente uma lista de alunos em risco e acionar a ação certa para cada perfil — renegociação e bolsas para quem tem dificuldade financeira, monitoria e tutoria para quem tem baixo desempenho, e contato ativo da coordenação para quem apresenta queda de frequência e engajamento.
+> A organização deve migrar da venda pulverizada para a criação de uma Liga Única centralizada, unificando os direitos de transmissão em uma só negociação ou lançando uma plataforma oficial integrada no modelo Direct-to-Consumer (D2C). Essa medida padroniza a entrega dos jogos, reduz a quantidade de assinaturas necessárias e estabelece uma teto de preço acessível para o torcedor, eliminando a fricção de acesso ao campeonato.
 
 ---
 
 # 12. Qual seria o benefício?
 
-> Para os alunos: maior chance de concluir a graduação e receber apoio no momento certo. Para a instituição: redução da taxa de evasão, aumento de receita e melhora nos indicadores de qualidade. Para a sociedade: mais profissionais formados. Além disso, os recursos de retenção passam a ser aplicados de forma mais eficiente, no público que realmente precisa.
+> O principal benefício é a retenção e o aumento da receita de longo prazo por meio da recuperação do público oficial e do combate direto à pirataria. A centralização aumenta o alcance de audiência, estabiliza o fluxo de caixa dos clubes com assinaturas recorrentes (anti-churn), valoriza as cotas de patrocínio para as marcas e garante a sustentabilidade financeira e competitiva do futebol brasileiro.
 
 ---
 
@@ -147,11 +146,11 @@
 
 | V              | Pergunta                                                   | Resposta da equipe |
 | -------------- | ---------------------------------------------------------- | ------------------ |
-| **Volume**     | Existe uma grande quantidade de dados?                     | Sim. São milhares de alunos, cada um com registros de frequência por aula, notas, acessos ao AVA e histórico financeiro acumulados por vários semestres. |
-| **Velocidade** | Os dados são gerados ou processados rapidamente?           | Sim. Presenças e acessos ao AVA são gerados diariamente; o risco de evasão pode mudar de uma semana para outra. |
-| **Variedade**  | Existem diferentes tipos ou formatos de dados?             | Sim. Dados estruturados (notas, faltas, pagamentos), logs de sistemas (AVA) e até textos (atendimentos, ouvidoria, respostas de questionários). |
-| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? | Sim. Chamadas lançadas com atraso ou erro, cadastros desatualizados, dados socioeconômicos autodeclarados e registros incompletos. |
-| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   | Sim. Permitem prever o risco de evasão e direcionar ações de retenção, gerando valor para alunos e instituição. |
+| **Volume**     | Existe uma grande quantidade de dados?                     | Sim, o volume é expressivo ao agregar bases de audiência, interações em redes sociais, logs de streaming, cancelamentos de assinaturas e registros operacionais de múltiplos clubes e transmissões.
+| **Velocidade** | Os dados são gerados ou processados rapidamente?           | Sim, dados de audiência ao vivo, tráfego de streaming, interações de usuários e menções em redes sociais são gerados em tempo real durante as partidas.
+| **Variedade**  | Existem diferentes tipos ou formatos de dados?             | Sim, há dados estruturados (valores de contratos, métricas de assinaturas, audiência) e não estruturados (comentários em redes sociais, logs de erro, sinal de vídeo).
+| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? | Sim, os dados podem conter inconsistências por subnotificação da pirataria, inconsistência nos critérios de medição entre plataformas e variações na qualidade de declaração dos torcedores.
+| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   | Sim, fornecem inteligência estratégica para precificação de pacotes, identificação de padrões de churn, combate à pirataria e tomada de decisão sobre centralização de direitos em uma Liga Única. 
 
 ### Qual dos 5 Vs é mais relevante para o problema?
 
@@ -159,7 +158,7 @@
 
 ### Justifique
 
-> De nada adianta ter muitos dados acadêmicos e financeiros se eles não forem transformados em decisões. O grande diferencial aqui é converter registros que a instituição já possui em ações concretas de retenção — ou seja, extrair valor dos dados. A veracidade também é crítica, pois um alerta baseado em dados errados pode direcionar recursos para o aluno errado.
+> Todos os outros Vs são aspectos técnicos e operacionais de infraestrutura. Coletar terabytes de dados rapidamente e em formatos variados não traz nenhum retorno prático se esses dados não forem transformados em insights acionáveis para resolver o problema. É o Valor que justifica o investimento no projeto, permitindo tomar decisões estratégicas reais, como redefinir a precificação de transmissões ou criar uma Liga Única para combater a pirataria.
 
 ---
 
@@ -168,43 +167,48 @@
 ```text
 ┌─────────────────────┐
 │       PROBLEMA      │
-│  Alta evasão de     │
-│  alunos no noturno  │
+| Fragmentação das    |
+| transmissões do     |
+| futebol brasileiro  |
+|       após a        | 
+│  Lei do Mandante    │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │        DADOS        │
-│ Frequência, notas,  │
-│ financeiro, AVA,    │
-│ perfil socioecon.   │
+│ Custo acumulado das │
+|    assinaturas,     │
+|distribuição de jogos|
+|  por plataforma,    |
+| uso de IPTV/,       |
+|      taxa de        |
+|   cancelamento,     |
+|audiência por partida|
+| e receita dos clubes│
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │     INFORMAÇÕES     │
-│ Fatores e perfis    │
-│ associados à        │
-│ desistência         │
+│ Fontes de Inflexão  │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │       ANÁLISE       │
 │ Descritiva, temporal│
-│ agrupamento e       │
-│ previsão de risco   │
+│      padrões        │
+│visualização gráfica │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │       DECISÃO       │
-│ Programa de retenção│
-│ direcionado por     │
-│ perfil de risco     │
+│     Criação da      │
+|     Liga Única      |
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
 │      BENEFÍCIO      │
-│ Menos evasão, mais  │
-│ formados e recursos │
-│ bem aplicados       │
+│ aumento do acesso   │
+│     do público      │
 └─────────────────────┘
 ```
 
@@ -212,55 +216,54 @@
 
 **Problema:**
 
-> Alta evasão de alunos em cursos superiores noturnos, detectada tarde demais.
+> Fragmentação das transmissões do futebol brasileiro após a Lei do Mandante, gerando custos elevados, confusão para o torcedor e aumento da pirataria.
 
 **Dados:**
 
-> Frequência, notas, situação financeira, perfil socioeconômico, acessos ao AVA e histórico de evasões anteriores.
+> Custo acumulado das assinaturas, distribuição dos jogos por plataforma, uso de IPTV/pirataria, taxa de cancelamento, audiência por partida e receita dos clubes.
 
 **Informação:**
 
-> Quais fatores, momentos e perfis estão associados à desistência, e quais alunos apresentam sinais de risco.
+> Ponto de inflexão em que o custo e a pulverização levam à pirataria, picos de cancelamento ao longo do campeonato e impacto da fragmentação na audiência e receitas.
 
 **Análise:**
 
-> Análise descritiva e temporal, comparação entre grupos, agrupamento de perfis e previsão do risco de evasão.
+> Análise descritiva e temporal, comparação entre grupos de clubes e torcedores, identificação de padrões de consumo e visualização gráfica dos impactos.
 
 **Decisão:**
 
-> Acionar ações de retenção personalizadas (financeira, pedagógica ou de acompanhamento) para os alunos em risco.
+> Unificar os direitos de transmissão por meio de uma Liga Única centralizada ou criar uma plataforma oficial integrada (D2C) com precificação acessível.
 
 **Benefício:**
 
-> Redução da evasão, mais alunos formados, melhoria de indicadores e uso eficiente dos recursos de retenção.
-
+> Aumento do engajamento e alcance do público, retenção de receita de longo prazo com assinaturas recorrentes, redução da pirataria e sustentabilidade financeira do setor.
 ---
 
 # 15. Preparação para apresentação
 
 ### 1. Nosso problema
 
-> A evasão de alunos em cursos superiores noturnos, que costuma ser percebida só depois que o aluno já desistiu.
+> A fragmentação das transmissões do futebol brasileiro pós-Lei do Mandante, que gera custos altos, confusão ao torcedor e impulsiona a pirataria.
 
 ### 2. Precisamos destes dados
 
-> Frequência, notas, situação financeira, dados socioeconômicos, acessos ao AVA e histórico de evasões.
+> Custo acumulado de assinaturas, grade de jogos por plataforma, uso de IPTV/pirataria, taxa de cancelamento (churn), audiência e receita dos clubes.
 
 ### 3. Queremos descobrir
 
-> Quais fatores e perfis estão associados à desistência e quais alunos apresentam sinais de risco antes de evadir.
+> Em que ponto o custo e a pulverização levam o torcedor à pirataria, além de como o cancelamento e a perda de audiência afetam as receitas.
 
 ### 4. Pretendemos analisar
 
-> O cenário geral (descritiva e gráficos), a evolução no tempo, grupos de alunos semelhantes e, por fim, a previsão do risco individual.
+> O cenário geral (descritiva e gráficos), a variação ao longo do campeonato (temporal), o contraste entre clubes/torcedores e a identificação de padrões de consumo.
 
 ### 5. A decisão poderia ser
 
-> Criar um programa de retenção direcionado, com a ação certa (financeira, pedagógica ou de acompanhamento) para cada perfil de risco.
+> Migrar para uma Liga Única com direitos centralizados ou criar uma plataforma integrada com pacotes e preços acessíveis.
 
 ### 6. O benefício esperado é
 
-> Menos evasão, mais alunos concluindo o curso, melhores indicadores para a instituição e recursos aplicados onde realmente fazem diferença.
+> Recuperação e engajamento do público oficial, redução da pirataria, receita estável e previsível com assinaturas e sustentabilidade do futebol nacional.
 
 ---
 
@@ -287,7 +290,7 @@
 
 **Resposta:**
 
-> Não. Dados em grande quantidade só geram boas decisões quando têm qualidade (veracidade), quando são analisados com as perguntas certas e quando os resultados chegam a quem decide, no momento certo. Uma instituição pode ter todo o histórico dos alunos e mesmo assim continuar perdendo estudantes se ninguém transformar esses registros em informação e ação. Além disso, dados ruins ou mal interpretados podem levar a decisões piores do que a intuição — por exemplo, classificar como "em risco" alunos com base em registros de frequência lançados errados. Ou seja: o valor não está no volume de dados, mas na capacidade de convertê-los em decisões corretas.
+> Não. Ter um grande volume de dados não garante boas decisões, pois dados brutos não geram valor por si sós. A abundância de informações frequentemente leva à "paralisia por análise" e ao excesso de ruído, dificultando a identificação do que é realmente relevante para o negócio. Além disso, existe o risco da ilusão de certeza: ter muitos dados pode criar uma falsa sensação de segurança, levando a decisões equivocadas se as informações forem imprecisas, desatualizadas ou interpretadas sob o viés de confirmação de quem as analisa.
 
 ---
 
@@ -298,17 +301,17 @@
 **Mapa do Problema de Ciência de Dados**
 
 ```text
-Problema: evasão de alunos no ensino superior noturno
-   ↓
-Dados necessários: frequência, notas, financeiro, AVA, perfil socioeconômico
-   ↓
-Informações desejadas: fatores, perfis e sinais de risco de evasão
-   ↓
-Análise: descritiva, temporal, agrupamento e previsão de risco
-   ↓
-Decisão: programa de retenção direcionado por perfil
-   ↓
-Benefício esperado: menos evasão, mais formados, recursos bem aplicados
+Problema: fragmentação das transmissões do futebol brasileiro pós-Lei do Mandante
+↓
+Dados necessários: custo de assinaturas, grade por plataforma, uso de IPTV/pirataria, churn, audiência e receita dos clubes
+↓
+Informações desejadas: ponto de inflexão para a pirataria, picos de cancelamento e impactos da pulverização na audiência e receita
+↓
+Análise: descritiva, visualização por gráficos, temporal, comparação entre grupos e identificação de padrões
+↓
+Decisão: centralização dos direitos em uma Liga Única ou plataforma oficial integrada (D2C) com preço acessível
+↓
+Benefício esperado: recuperação do torcedor oficial, redução da pirataria, receitas previsíveis e sustentabilidade do futebol nacional
 ```
 
 **Formato:** Markdown.
