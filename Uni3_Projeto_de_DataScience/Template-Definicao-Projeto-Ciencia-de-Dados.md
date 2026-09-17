@@ -4,15 +4,15 @@
 **Metodologia:** PBL + trabalho em equipes  
 **Entregável:** Documento de definição do projeto
 
-> **Finalidade:** delimitar um problema real e orientar o desenvolvimento do projeto de Ciência de Dados. Preencha todos os campos com informações objetivas, verificáveis e coerentes entre si.
+> **Finalidade:** preencher
 
 ## 1. Identificação do projeto
 
 | Campo | Preenchimento |
 |---|---|
 | Título provisório do projeto | |
-| Curso / disciplina | |
-| Turma | |
+| Curso / disciplina | Sistemas de Informação |
+| Turma |  |
 | Equipe | |
 | Integrantes e funções iniciais | |
 | Professor(a) | |
@@ -22,6 +22,8 @@
 ## 2. Visão geral
 
 ### 2.1 Resumo do projeto
+
+O Projeto consiste em uma Inteligência Artificial local, alimentada diretamente pelo usuário para auxiliar em processos comuns no meio empresarial. O principal problema enfrentado pelo público-alvo composto por Microempreendedores Individuais e donos de micro e pequenas empresas é a sobrecarga em tarefas administrativas diárias, somada à preocupação com a privacidade de dados confidenciais em soluções em nuvem.
 
 Em até 100 palavras, apresente o problema, o público-alvo, a proposta de análise e o resultado esperado.
 
