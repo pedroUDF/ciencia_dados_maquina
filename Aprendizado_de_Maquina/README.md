@@ -9,9 +9,9 @@ Este repositório registra as atividades de introdução ao Machine Learning e d
 
 ## Identificação do repositório
 
-- Estudante ou equipe: **PREENCHER**
-- Turma: **PREENCHER**
-- Repositório: **PREENCHER**
+- Estudante ou equipe: Pedro Luiz Oliveira da Costa
+- Turma: Sistemas de Informação - Quinta-Feira, noturno
+- Repositório: https://github.com/pedroUDF/ciencia_dados_maquina
 
 ## Atividades
 
