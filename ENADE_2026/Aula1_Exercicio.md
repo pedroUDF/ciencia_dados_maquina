@@ -58,8 +58,8 @@ B) uma técnica de teste;
 C) uma arquitetura de software;  
 D) uma estrutura de dados.  
 
-**Resposta:**  
-**Justifique sua escolha:**  
+**Resposta:**  A
+**Justifique sua escolha:**  A declaração diz um comportamento que o software precisa execeutar para atender ao usuário. Requisitos funcionais descrevem o que o sistema deve fazer.
 
 #### Questão 4 - Banco de Dados
 Uma organização identificou registros duplicados, campos incompletos e diferentes formatos para representar a mesma informação em sua base de dados.
@@ -71,8 +71,8 @@ B) realizar limpeza e padronização dos dados;
 C) alterar as cores do painel;  
 D) aumentar a quantidade de usuários do sistema.  
 
-**Resposta:**  
-**Qual é o problema central apresentado pelo cenário?**  
+**Resposta:**  B
+**Qual é o problema central apresentado pelo cenário?** Um banco que apresenta ineficiência lógica por conter registros duplicados, campos incompletos e falta de padronização.
 
 #### Questão 5 - Redes e Segurança
 Uma organização precisa garantir que seus dados críticos possam ser recuperados depois de uma falha grave no armazenamento.
@@ -84,8 +84,8 @@ B) Criar novos perfis de usuários.
 C) Manter backups e testar periodicamente sua restauração.  
 D) Aumentar a resolução dos monitores.  
 
-**Resposta:**  
-**Qual palavra ou ideia do enunciado orientou sua decisão?**  
+**Resposta:**  C
+**Qual palavra ou ideia do enunciado orientou sua decisão?**  "dados críticos possam ser recuperados depois de uma falha grave" me direciona a pensar em backup.
 
 #### Questão 6 - Sistemas de Informação e Governança
 A alta administração de uma organização define princípios para o uso da tecnologia, acompanha indicadores e verifica se os investimentos em TI estão contribuindo para os objetivos organizacionais.
@@ -97,8 +97,8 @@ B) programação orientada a objetos;
 C) normalização de banco de dados;  
 D) gerenciamento de memória.  
 
-**Resposta:**  
-**Justificativa:**  
+**Resposta:**  A
+**Justificativa:**  A governança de TI trata do alinhamento entre as estratégias de TI e os objetivos de negócio da organização.
 
 #### Questão 7 - IHC e Usabilidade
 Uma universidade deseja avaliar uma nova funcionalidade de seu sistema acadêmico. Para isso, estudantes são convidados a realizar uma tarefa enquanto a equipe observa tempo para conclusão, erros cometidos, dificuldades encontradas e comentários dos participantes.
@@ -110,17 +110,17 @@ B) teste de unidade;
 C) normalização;  
 D) balanceamento de carga.  
 
-**Resposta:**  
+**Resposta:**  A
 
 **C.A.L.M.A. completo**
 
 | Etapa | Seu registro |
 | :--- | :--- |
-| C - Comando | |
-| A - Assunto | |
-| L - Leitura | |
-| M - Marcação | |
-| A - Avaliação | |
+| **C - Comando** | Identificar a qual tipo de atividade/avaliação de sistema se refere o cenário descrito. |
+| **A - Assunto** | Interação Humano-Computador (IHC) / Avaliação de Usabilidade. |
+| **L - Leitura** | Análise do cenário: estudantes realizam uma tarefa real no sistema enquanto a equipe observa e mede métricas de desempenho (tempo, erros) e experiência (dificuldades, comentários). |
+| **M - Marcação** | Palavras-chave essenciais: "avaliar uma nova funcionalidade", "observa tempo", "erros cometidos", "dificuldades encontradas" e "comentários dos participantes". |
+| **A - Avaliação** | • **A (Correta):** Teste de usabilidade avalia a facilidade de uso e eficácia da interface observando usuários reais executando tarefas.<br>• **B (Incorreta):** Teste de unidade verifica o funcionamento de pequenos blocos isolados de código (funções/métodos).<br>• **C (Incorreta):** Normalização é o processo de organização de tabelas em bancos de dados.<br>• **D (Incorreta):** Balanceamento de carga distribui tráfego de rede/requisidores entre múltiplos servidores. |
 
 ---
 
@@ -128,19 +128,23 @@ D) balanceamento de carga.
 
 #### Questão 8 - Não basta encontrar a correta
 Escolha uma das questões anteriores.  
-**Questão escolhida:**  
+**Questão escolhida:** Questão 4 (Banco de Dados)
 
 Agora analise as alternativas.
 
 | Alternativa | Correta ou incorreta? | Por quê? |
-| :---: | :--- | :--- |
-| A | | |
-| B | | |
-| C | | |
-| D | | |
+| :---: | :---: | :--- |
+| A | Incorreta | Aumentar a quantidade de gráficos não resolve a falta de qualidade dos dados subjacentes; apenas exibe dados inconsistentes de formas diferentes. |
+| B | Correta | Trata diretamente os problemas apontados no cenário (registros duplicados, campos incompletos e formatos inconsistentes) antes do consumo no painel. |
+| C | Incorreta | Alterar aspectos visuais (como cores) é uma mudança puramente estética que ignora completamente a inconsistência da base de dados. |
+| D | Incorreta | Aumentar o número de usuários não corrige os erros da base de dados e pode até expor dados incorretos para mais pessoas. |
 
-Qual alternativa pareceu mais convincente, mesmo estando incorreta?  
-Por que ela poderia induzir o estudante ao erro?  
+**Qual alternativa pareceu mais convincente, mesmo estando incorreta?**  
+Alternativa A.
+
+**Por que ela poderia induzir o estudante ao erro?**  
+Porque está diretamente associada ao conceito de "painel gerencial" mencionado no enunciado, podendo induzir a focar na apresentação visual da informação em vez da qualidade técnica dos dados de origem.
+
 
 ---
 
@@ -150,13 +154,12 @@ Marque a opção que melhor representa sua situação.
 
 | Estratégia | Sim | Às vezes | Ainda preciso desenvolver |
 | :--- | :---: | :---: | :---: |
-| Leio o comando com atenção | [ ] | [ ] | [ ] |
-| Identifico o assunto antes de responder | [ ] | [ ] | [ ] |
-| Procuro evidências no enunciado | [ ] | [ ] | [ ] |
-| Elimino alternativas inconsistentes | [ ] | [ ] | [ ] |
-| Consigo justificar minha resposta | [ ] | [ ] | [ ] |
-| Evito responder apenas por palavras-chave | [ ] | [ ] | [ ] |
-| Controlo o tempo de resolução | [ ] | [ ] | [ ] |
+| Leio o comando com atenção | [X] | [ ] | [ ] |
+| Procuro evidências no enunciado | [ ] | [X] | [ ] |
+| Elimino alternativas inconsistentes | [X] | [ ] | [ ] |
+| Consigo justificar minha resposta | [ ] | [X] | [ ] |
+| Evito responder apenas por palavras-chave | [X] | [ ] | [ ] |
+| Controlo o tempo de resolução | [ ] | [ ] | [X] |
 
 ---
 
@@ -166,15 +169,15 @@ Classifique sua percepção atual.
 
 | Área | Verde | Amarelo | Vermelho |
 | :--- | :---: | :---: | :---: |
-| Algoritmos e Programação | [ ] | [ ] | [ ] |
-| Estruturas de Dados | [ ] | [ ] | [ ] |
-| Engenharia de Software | [ ] | [ ] | [ ] |
-| Banco de Dados | [ ] | [ ] | [ ] |
-| Sistemas de Informação | [ ] | [ ] | [ ] |
-| IHC | [ ] | [ ] | [ ] |
-| Redes | [ ] | [ ] | [ ] |
-| Segurança | [ ] | [ ] | [ ] |
-| Governança de TI | [ ] | [ ] | [ ] |
+| Algoritmos e Programação | [X] | [ ] | [ ] |
+| Estruturas de Dados | [X] | [ ] | [ ] |
+| Engenharia de Software | [ ] | [X] | [ ] |
+| Banco de Dados | [X] | [ ] | [ ] |
+| Sistemas de Informação | [ ] | [X] | [ ] |
+| IHC | [ ] | [X] | [ ] |
+| Redes | [ ] | [ ] | [X] |
+| Segurança | [ ] | [ ] | [X] |
+| Governança de TI | [ ] | [X] | [ ] |
 
 - **Verde:** consigo resolver e justificar.
 - **Amarelo:** reconheço o conteúdo, mas ainda tenho dúvidas.
@@ -184,8 +187,8 @@ Classifique sua percepção atual.
 
 ### Parte 6 - Reflexão Final
 
-1. Em quais duas áreas você encontrou maior dificuldade?
-2. Qual etapa do Método C.A.L.M.A. foi mais útil para você?
-3. Qual etapa você ainda precisa desenvolver?
-4. Quando você errou, qual foi a causa mais frequente?  
+1. Em quais duas áreas você encontrou maior dificuldade? Engenharia e Redes
+2. Qual etapa do Método C.A.L.M.A. foi mais útil para você? L - Leitura
+3. Qual etapa você ainda precisa desenvolver? A de avaliação
+4. Quando você errou, qual foi a causa mais frequente? Um sentimento de pressa de acabar e responder as questões.
    [ ] Conceito &nbsp;&nbsp;&nbsp;&nbsp;
