@@ -18,8 +18,8 @@ Projeto de Ciência de Dados e Aprendizagem de Máquina estruturado sob a metodo
 - [x] **Fase 2.2:** Descrição de Quantidade, Tipagem e Qualidade dos Dados
 - [x] **Fase 2.3:** Análise Exploratória de Dados (EDA) e Validação de Hipóteses
 - [x] **Fase 2.4:** Auditoria de Qualidade (Nulos, Anomalias e Inconsistências)
-- [ ] **Fase 3:** Preparação dos Dados (Limpeza, Engenharia de Atributos e Integração)
-- [ ] **Fase 4:** Modelagem Preditiva
+- [x] **Fase 3:** Preparação dos Dados (Limpeza, Engenharia de Atributos e Integração)
+- [x] **Fase 4:** Modelagem Preditiva
 - [ ] **Fase 5:** Avaliação (Métricas Técnicas vs. Critérios de Negócio)
 - [ ] **Fase 6:** Plano de Implementação e Monitoramento
 
