@@ -1,0 +1,11 @@
+# Dados brutos pesados do INEP
+data/raw/
+*.csv
+*.zip
+
+# Ambientes e cache Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
