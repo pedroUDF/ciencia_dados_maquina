@@ -4,7 +4,7 @@ Metodologia: https://www.ibm.com/docs/pt-br/SS3RA7_18.5.0/nl/pt/BR/pdf/ModelerCR
 
 Projeto de Ciência de Dados e Aprendizagem de Máquina estruturado sob a metodologia **CRISP-DM** (*Cross-Industry Standard Process for Data Mining*), com o objetivo de prever a probabilidade de abstenção de candidatos inscritos no Exame Nacional do Ensino Médio (ENEM) no **Distrito Federal (DF)**.
 
-- **Alunos:** Pedro Luiz Oliveira da Costa e Henrique Leonardo Ribeiro
+- **Alunos:** Pedro Luiz Oliveira da Costa e Henrique Ribeiro Leonardo
 - **Docente:** Profa. Kadidja Valéria
 - **Disciplina:** Ciência de Dados e Aprendizagem de Máquina
 - **Turma:** Sistemas de Informação, Noturno
@@ -19,7 +19,3 @@ Projeto de Ciência de Dados e Aprendizagem de Máquina estruturado sob a metodo
 - [x] **Fase 4:** Modelagem Preditiva
 - [x] **Fase 5:** Avaliação (Métricas Técnicas vs. Critérios de Negócio)
 - [x] **Fase 6:** Plano de Implementação e Monitoramento
-
----
-
-
