@@ -47,9 +47,9 @@ A partir da extração e auditoria de **230.450 inscrições no DF** (filtradas 
 
 | Modelo Avaliado | Dataset | ROC-AUC | Recall (Corte 0.50) | Precision | F1-Score |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| Regressão Logística *(Baseline Escolar)* | Dataset A | 0.6522 | 64,10% | 42,15% | 0.5086 |
-| Regressão Logística *(Socioeconômico)* | Dataset B | 0.7134 | 68,42% | 45,10% | 0.5436 |
-| Random Forest | Dataset B | 0.7168 | 68,95% | 45,88% | 0.5509 |
+| Regressão Logística *(Baseline Escolar)* | Dataset A | 0.6522 | 85,73% | 38,66% | 0.5329 |
+| Regressão Logística *(Socioeconômico)* | Dataset B | 0.7137 | 66,95% | 46,46% | 0.5486 |
+| Random Forest | Dataset B | 0.7195 | 70,81% | 45,80% | 0.5563 |
 | **Gradient Boosting (`HistGB` — Campeão)** | **Dataset B** | **0.7205** | **69,59%** | **46,23%** | **0.5555** |
 
 * **Ganho Informacional:** A inclusão das variáveis socioeconômicas elevou o `ROC-AUC` em **+6,83 pontos** (`0.6522` $\rightarrow$ `0.7205`), confirmando que idade (`TP_FAIXA_ETARIA`), condição de egresso (`EGRESSO_FORA_FLUXO`) e renda (`RENDA_ORDINAL`) são os principais determinantes da evasão.
