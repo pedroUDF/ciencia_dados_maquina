@@ -13,6 +13,7 @@ Esta pasta reúne os notebooks executáveis do projeto, organizados sequencialme
 | **03** | `preparacao_dados_fase3.ipynb` | **Fase 3** *(Preparação dos Dados)* | Executa a limpeza sem *data leakage*, remoção de eliminados, tratamento de nulos escolares, engenharia de atributos (`ESTUDA_FORA_DF`, `POSSUI_ESCOLA_VINCULADA`, `RENDA_ORDINAL`, etc.) e gera os conjuntos finais de treino e teste (**Dataset A** e **Dataset B**). |
 | **04** | `04_modelagem_avaliacao_fase4_5.ipynb` | **Fase 4** *(Modelagem Preditiva)* | Treina e compara Regressão Logística, Random Forest e Gradient Boosting nos Datasets A e B (`ROC-AUC = 0.7205`), gera curvas ROC e identifica os principais atributos preditivos (`TP_FAIXA_ETARIA`, `EGRESSO_FORA_FLUXO`, `RENDA_ORDINAL`). |
 | **05** | `05_avaliacao_resultados_fase5.ipynb` | **Fase 5** *(Avaliação)* | Calibra o limiar operacional do modelo campeão (`0.48`, atingindo `Recall = 71,29%`), gera a matriz de confusão, analisa a distribuição de probabilidades e projeta a recuperação de `+1.870` candidatos no DF. |
+| **06** | `06_implantacao_scoring_fase6.ipynb` | **Fase 6** *(Implementação)* | Serializa o modelo campeão (`modelo_abstencao_enem_df.joblib`), executa simulação de escoragem em lote (*batch scoring*) segmentando candidatos por faixa de risco e documenta o plano de monitoramento, relatório final e revisão do projeto (`6.1` a `6.4`). |
 
 ---
 
@@ -23,4 +24,5 @@ Esta pasta reúne os notebooks executáveis do projeto, organizados sequencialme
 3. **Notebook 03:** Transforma e codifica as variáveis sem vazamento de dados, exportando as matrizes prontas para a **Fase 4 (Modelagem Preditiva)**.
 4. **Notebook 04:** Treina os algoritmos candidatos, compara métricas de performance (`ROC-AUC`, `Recall`, `F1`) e analisa a importância das variáveis.
 5. **Notebook 05:** Otimiza o limiar de decisão, valida os critérios de sucesso de negócio e simula o impacto operacional no DF.
+6. **Notebook 06:** Exporta o artefato final do modelo, demonstra o pipeline operacional de escoragem e registra o plano de monitoramento e revisão do ciclo CRISP-DM.
   
