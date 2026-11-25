@@ -53,6 +53,6 @@ A verificação sistemática de integridade, valores omissos e anomalias revelou
 2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
-3. Execute o script de extração para gerar os recortes leves do DF em .parquet:
-   ```bash
-   python src/03_extrair_df.py
+   ```
+3. Execute o notebook `notebooks/01_coleta_extracao_fase1_2.ipynb` para gerar os recortes leves do DF em `.parquet` (salvos em `data/processed/`).
+4. Execute `notebooks/entendimento_dados_fase2.ipynb`, que lê os arquivos `.parquet` direto do repositório, para reproduzir a análise desta fase.
