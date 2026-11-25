@@ -29,10 +29,10 @@ A partir da extração e auditoria de **230.450 inscrições no DF** (filtradas 
 
 | Edição | Total Inscritos (DF) | Eliminados Removidos | Base Válida Analisada | Taxa de Abstenção Geral | Abstenção 1.º Dia (CH) | Abstenção 2.º Dia (MT) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **2023** | 72.933 | 78 | 72.855 | **29,83%** | 25,63% | 29,29% |
-| **2024** | 74.562 | 94 | 74.468 | **31,74%** | 27,31% | 31,19% |
-| **2025** | 82.955 | 102 | 82.853 | **31,63%** | 27,18% | 31,11% |
-| **Total** | **230.450** | **274** | **230.176** | **31,10%** | **26,74%** | **30,56%** |
+| **2023** | 72.975 | 120 | 72.855 | **31,00%** | 27,03% | 30,70% |
+| **2024** | 74.520 | 157 | 74.363 | **29,78%** | 25,40% | 29,52% |
+| **2025** | 82.955 | 126 | 82.829 | **31,63%** | 26,76% | 31,29% |
+| **Total** | **230.450** | **403** | **230.047** | **30,83%** | **26,40%** | **30,53%** |
 
 ### 3.2 Principais Achados Exploratórios e Engenharia de Atributos
 * **Impacto do Vínculo Escolar:** Estudantes regulares do 3.º ano apresentam abstenção média de ~20%, enquanto **egressos sem vínculo escolar** (`~70%` da base, inicialmente identificados com valores nulos *MNAR* nas colunas de escola) atingem **36% a 38%** de ausência.
