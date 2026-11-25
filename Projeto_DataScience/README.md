@@ -14,14 +14,11 @@ Projeto de Ciência de Dados e Aprendizagem de Máquina estruturado sob a metodo
 ## Status do Ciclo CRISP-DM
 
 - [x] **Fase 1:** Entendimento do Negócio
-- [x] **Fase 2.1:** Coleta de Dados Iniciais e Extração do Escopo (DF)
-- [x] **Fase 2.2:** Descrição de Quantidade, Tipagem e Qualidade dos Dados
-- [x] **Fase 2.3:** Análise Exploratória de Dados (EDA) e Validação de Hipóteses
-- [x] **Fase 2.4:** Auditoria de Qualidade (Nulos, Anomalias e Inconsistências)
+- [x] **Fase 2:** Entendimento dos Dados
 - [x] **Fase 3:** Preparação dos Dados (Limpeza, Engenharia de Atributos e Integração)
 - [x] **Fase 4:** Modelagem Preditiva
-- [ ] **Fase 5:** Avaliação (Métricas Técnicas vs. Critérios de Negócio)
-- [ ] **Fase 6:** Plano de Implementação e Monitoramento
+- [x] **Fase 5:** Avaliação (Métricas Técnicas vs. Critérios de Negócio)
+- [x] **Fase 6:** Plano de Implementação e Monitoramento
 
 ---
 
