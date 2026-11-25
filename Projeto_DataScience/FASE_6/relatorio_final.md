@@ -66,7 +66,4 @@ A partir da extração e auditoria de **230.450 inscrições no DF** (filtradas 
 * **Operacionalização (*Batch Scoring*):** O modelo campeão foi serializado em **`models/modelo_abstencao_enem_df.joblib`** para execução em lote imediatamente após o fim das inscrições, segmentando os candidatos em **Alto Risco** (`score >= 0.65` $\rightarrow$ busca ativa e divulgação de passe livre estudantil), **Risco Moderado** (`0.48 <= score < 0.65` $\rightarrow$ régua digital SMS/WhatsApp) e **Baixo Risco** (`score < 0.48`).
 * **Limitações Identificadas:** A adequação do INEP à LGPD a partir de 2024 desvinculou os microdados de `PARTICIPANTES` e `RESULTADOS` e omitiu o CEP residencial exato, impedindo o cálculo da distância entre a residência do candidato e o local de prova.
 * **Recomendações Futuras:** Em ambiente institucional (SEEDF/INEP) sob termo de sigilo, incorporar a distância geodésica residência–local de prova e a malha de transporte público para elevar o `ROC-AUC` acima de `0.75`, mantendo o ciclo de re-treino anual e monitoramento de *data drift*.
-
----
-
 * **Automação de Painel (BI):** Conectar a saída do pipeline de *batch scoring* a um painel gerencial por Região Administrativa (RA) do DF para acompanhamento em tempo real pelas equipes pedagógicas.
